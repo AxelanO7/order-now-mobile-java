@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/inNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Nama"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Makanan"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/inRice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nasi Goreng"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/inChicken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ayam Goreng"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/inCatfish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lele Goreng"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Minuman"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/inMineral"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Air Mineral"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/inTea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Es Teh"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/inOrange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Es Jeruk"
+                android:inputType="number" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/inNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukkan Catatan"
+        android:inputType="textPersonName" />
+
+
+</LinearLayout>
